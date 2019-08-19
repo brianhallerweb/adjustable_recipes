@@ -12,6 +12,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-app.listen(6000, () => {
-  console.log(`adjustable recipes server running on port 6000`);
+app.listen(3006, () => {
+  console.log(`adjustable recipes server running on port 3006`);
 });
