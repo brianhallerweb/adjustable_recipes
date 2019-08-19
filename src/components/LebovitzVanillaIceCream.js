@@ -52,7 +52,6 @@ class LebovitzVanillaIceCream extends Component {
     } else {
       decimal = 1;
     }
-
     return noDecimalNumber + decimal;
   }
 
@@ -120,7 +119,7 @@ class LebovitzVanillaIceCream extends Component {
                 this.updateIngredients(e.target.name, e.target.value)
               }
             />
-            egg yolks (I prefer half the yokes)
+            egg yolks (I prefer 1/2 the yokes)
           </li>
           <li>
             <input
