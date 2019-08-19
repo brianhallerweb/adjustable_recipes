@@ -44,7 +44,7 @@ class ChefStepsFruitCrumble extends Component {
   }
 
   roundToQuarterGram(number) {
-    const noDecimalNumber = Math.round(number);
+    const noDecimalNumber = Math.trunc(number);
     let decimal = number - noDecimalNumber;
     if (decimal < 0.13) {
       decimal = 0;
