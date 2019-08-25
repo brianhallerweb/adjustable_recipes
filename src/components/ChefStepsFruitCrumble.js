@@ -180,10 +180,10 @@ class ChefStepsFruitCrumble extends Component {
         <p>prepare the fruit</p>
         <ul>
           <li>{this.state.ingredient1}g fresh fruit</li>
-          <li>{this.state.ingredient2}g Sugar</li>
+          <li>{this.state.ingredient2 / 2}g Sugar</li>
           <li>{this.state.ingredient3}g Cornstarch</li>
           <li>{this.state.ingredient4}g Lemon juice</li>
-          <li>{this.state.ingredient5}g salt</li>
+          <li>{this.state.ingredient5 / 2}g salt</li>
         </ul>
 
         <p>prepare the crumble</p>
@@ -191,8 +191,8 @@ class ChefStepsFruitCrumble extends Component {
           <li>{this.state.ingredient6}g rolled oats</li>
           <li>{this.state.ingredient7}g almond flour</li>
           <li>{this.state.ingredient8}g unsalted butter</li>
-          <li>{this.state.ingredient2}g sugar</li>
-          <li>{this.state.ingredient5}g salt</li>
+          <li>{this.state.ingredient2 / 2}g sugar</li>
+          <li>{this.state.ingredient5 / 2}g salt</li>
           <li>{this.state.ingredient9}g egg yolk</li>
         </ul>
 
