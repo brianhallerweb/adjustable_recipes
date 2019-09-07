@@ -147,4 +147,4 @@ class BasicPieCrust extends Component {
   }
 }
 
-export default LebovitzVanillaIceCream;
+export default BasicPieCrust;
