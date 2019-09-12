@@ -7,7 +7,7 @@ class ChefStepsFruitCrumble extends Component {
     super(props);
     this.original = {
       ingredient1: 1500,
-      ingredient2: 300,
+      ingredient2: 200,
       ingredient3: 20,
       ingredient4: 30,
       ingredient5: 12,
@@ -18,7 +18,7 @@ class ChefStepsFruitCrumble extends Component {
     };
     this.state = {
       ingredient1: 1500,
-      ingredient2: 300,
+      ingredient2: 200,
       ingredient3: 20,
       ingredient4: 30,
       ingredient5: 12,
