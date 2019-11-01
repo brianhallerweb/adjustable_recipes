@@ -5,6 +5,7 @@ import Home from '../components/Home';
 import LebovitzVanillaIceCream from '../components/LebovitzVanillaIceCream';
 import ChefStepsFruitCrumble from '../components/ChefStepsFruitCrumble';
 import BasicPieCrust from '../components/BasicPieCrust';
+import TartinePumpkinPie from '../components/TartinePumpkinPie';
 import RedirectToHome from '../components/RedirectToHome';
 
 const AppRouter = () => (
@@ -22,6 +23,7 @@ const AppRouter = () => (
           path="/chefstepsfruitcrumble"
           component={ChefStepsFruitCrumble}
         />
+        <Route path="/tartinepumpkinpie" component={TartinePumpkinPie} />
         <Route component={RedirectToHome} />
       </Switch>
     </div>

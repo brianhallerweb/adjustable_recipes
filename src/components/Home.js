@@ -24,6 +24,9 @@ class Home extends Component {
         <div>
           <Link to={'/chefstepspiecrust'}>Chef steps pie crust</Link>
         </div>
+        <div>
+          <Link to={'/tartinepumpkinpie'}>Tartine Pumpkin Pie</Link>
+        </div>
       </div>
     );
   }
